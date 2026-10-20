@@ -23,69 +23,87 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="nav-wrap">
-        <a class="wordmark" href="#home" aria-label="Dr. Rahul B. Adhao home">Dr. Rahul B. Adhao<span class="wordmark-dot">.</span></a>
+        <a class="brand-lockup" href="#home" aria-label="Dr. Rahul B. Adhao home">
+          <span class="wordmark">Dr. Rahul B. Adhao<span class="wordmark-dot">.</span></span>
+          <span class="brand-caption">Engineering Blueprint</span>
+        </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation">
           <span></span><span></span>
         </button>
         <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
           <a href="#home">Home</a>
+          <a href="#books">The Book</a>
           <a href="#about">About the Author</a>
-          <a href="#books">Books</a>
+          <a href="why-i-wrote-this-book.html">Why I Wrote This Book</a>
           <a href="#contact">Contact</a>
-          <a class="linkedin-nav-link" href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Dr. Rahul B. Adhao on LinkedIn (opens in a new tab)">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.3H2.3V21h2.9V8.3ZM3.75 2a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM21.7 13.7c0-3.8-2-5.6-4.7-5.6-2.2 0-3.2 1.2-3.8 2V8.3h-2.9V21h2.9v-6.3c0-1.7.3-3.3 2.4-3.3s2.1 1.9 2.1 3.4V21h2.9l1.1-7.3Z"/></svg>
-            <span>LinkedIn</span>
-          </a>
           <a class="nav-cta" href="#books">Explore the Book <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
 
     <main id="main">
-      <section class="opening-book-section" id="home" aria-label="Featured book">
-        <article class="opening-book section-shell" id="books" aria-labelledby="book-title">
-          <div class="opening-book-cover">
-            <img src="assets/images/engineering-blueprint-ignition.jpeg" alt="Engineering Blueprint Series — Ignition: Before Engineering Begins, by Dr. Rahul B. Adhao">
-          </div>
-          <div class="opening-book-copy">
-            <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Featured Book</p>
-            <h1 id="book-title">Engineering Blueprint — Book 1: <em>Ignition</em></h1>
-            <p class="opening-book-subtitle">Preparing Before Engineering Begins</p>
-            <p class="opening-book-tagline">From CET/JEE to a Confident Engineering Student</p>
-            <p class="opening-book-description" id="book-description">A practical roadmap for students preparing to enter engineering. Learn to make informed choices, develop the right mindset, and build essential skills before college begins.</p>
-            <ul class="book-highlights" id="book-highlights">
-              <li><span aria-hidden="true">✳</span><span><strong>Mindset &amp; Self-Discovery:</strong> Goals, confidence, habits, and personal strengths.</span></li>
-              <li><span aria-hidden="true">✳</span><span><strong>Choosing Engineering Wisely:</strong> College and branch selection, admissions, and financial planning.</span></li>
-              <li><span aria-hidden="true">✳</span><span><strong>Preparing Before College:</strong> Programming basics, mathematics, English, and digital readiness.</span></li>
-            </ul>
-            <div class="opening-book-actions">
-              <a class="button button-light" href="#book-description">Explore the Book <span aria-hidden="true">↓</span></a>
+      <section class="hero-section" id="home" aria-labelledby="hero-title">
+        <div class="hero-inner section-shell">
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> A practical guide for your next chapter</p>
+            <p class="hero-series">ENGINEERING BLUEPRINT — BOOK 1:</p>
+            <h1 id="hero-title">Ignition<span class="hero-period">.</span></h1>
+            <p class="hero-subtitle">Preparing Before Engineering Begins</p>
+            <p class="hero-description">Make informed choices, build the right mindset, and prepare confidently for your engineering journey.</p>
+            <div class="hero-actions">
+              <a class="button button-light" href="#books">Explore the Book <span aria-hidden="true">↓</span></a>
+              <a class="hero-secondary-link" href="#about">About the Author <span aria-hidden="true">↗</span></a>
             </div>
           </div>
-        </article>
+          <figure class="hero-cover">
+            <img src="assets/images/engineering-blueprint-ignition.jpeg" alt="Engineering Blueprint — Book 1: Ignition, by Dr. Rahul B. Adhao">
+          </figure>
+          <span class="hero-edition" aria-hidden="true">ENGINEERING BLUEPRINT · IGNITION</span>
+        </div>
+      </section>
+
+      <section class="book-section" id="books" aria-labelledby="book-title">
+        <div class="book-spotlight section-shell">
+          <div class="book-cover-preview" aria-label="Front cover of Engineering Blueprint: Ignition">
+            <figure class="book-spotlight-cover book-front-cover">
+              <button class="book-cover-zoom" type="button" aria-label="Enlarge Engineering Blueprint: Ignition front cover">
+                <img src="assets/images/engineering-blueprint-ignition.jpeg" alt="Engineering Blueprint: Ignition front cover">
+              </button>
+            </figure>
+          </div>
+          <div class="book-spotlight-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> The Featured Book</p>
+            <h2 id="book-title">A thoughtful start to <em>engineering.</em></h2>
+            <p class="book-spotlight-subtitle">Engineering Blueprint — Book 1: Ignition</p>
+            <p class="book-spotlight-description">A practical roadmap for students preparing to enter engineering. Learn to make informed choices, develop the right mindset, and build essential skills before college begins.</p>
+            <div class="book-themes" aria-label="What the book covers">
+              <article class="book-theme"><span class="theme-number">01</span><div><h3>Mindset and Self-Discovery</h3><p>Goals, confidence, habits, and personal strengths.</p></div></article>
+              <article class="book-theme"><span class="theme-number">02</span><div><h3>Choosing Engineering Wisely</h3><p>College and branch selection, admissions, and financial planning.</p></div></article>
+              <article class="book-theme"><span class="theme-number">03</span><div><h3>Preparing Before College</h3><p>Programming basics, mathematics, English, and digital readiness.</p></div></article>
+            </div>
+            <a class="text-link" href="#about">Meet the Author <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
       </section>
 
       <section class="opening-author-section" id="about" aria-labelledby="author-title">
         <article class="opening-author section-shell">
           <figure class="opening-portrait">
             <img src="assets/images/author_rahul.jpg" alt="Portrait of Dr. Rahul B. Adhao">
-            <figcaption>Engineer · Professor · Mentor</figcaption>
+            <figcaption>Engineering Educator · Researcher · Mentor · Author</figcaption>
           </figure>
           <div class="opening-author-copy">
             <p class="eyebrow"><span class="eyebrow-line"></span> About the Author</p>
-            <h2 id="author-title">Dr. Rahul<br>B. Adhao</h2>
+            <h2 id="author-title">Dr. Rahul B. Adhao</h2>
+            <p class="author-role">Engineering Educator, Researcher, Mentor, and Author</p>
             <div class="author-biography" id="author-introduction">
-              <p>Dr. Rahul B. Adhao is an engineering educator, researcher, mentor, and author with 13 years of professional experience, including 12 years in teaching and one year in industry, as stated in his resume.</p>
+              <p>Dr. Rahul B. Adhao is an engineering educator, researcher, mentor, and author with 13 years of professional experience, including 12 years in teaching and one year in industry.</p>
               <p>He currently serves as an Associate Professor at the School of Computation Sciences, JSPM University, Wagholi, Pune. His academic journey includes COEP Technological University and MIT Academy of Engineering, Alandi.</p>
-              <p>His interests include computer engineering, cybersecurity, research, student mentorship, and career development. He is also a certified NLP Life Coach and has completed the IITM Pravartak Career Counsellor Certification.</p>
+              <p>His interests include computer engineering, cybersecurity, research, student mentorship, and career development. He is a certified NLP Life Coach and has completed the IITM Pravartak Career Counsellor Certification.</p>
               <p>Through the Engineering Blueprint series, he aims to help students develop the technical skills, mindset, confidence, and values needed to build successful careers and meaningful lives.</p>
             </div>
             <div class="opening-author-actions">
               <a class="button button-dark" href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
-              <a class="linkedin-bio" href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Dr. Rahul B. Adhao on LinkedIn (opens in a new tab)">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.3H2.3V21h2.9V8.3ZM3.75 2a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM21.7 13.7c0-3.8-2-5.6-4.7-5.6-2.2 0-3.2 1.2-3.8 2V8.3h-2.9V21h2.9v-6.3c0-1.7.3-3.3 2.4-3.3s2.1 1.9 2.1 3.4V21h2.9l1.1-7.3Z"/></svg>
-                LinkedIn <span aria-hidden="true">↗</span>
-              </a>
             </div>
           </div>
         </article>
@@ -98,23 +116,71 @@
         </div>
       </section>
 
+      <section class="editorial-section letter-section" aria-labelledby="letter-title">
+        <div class="editorial-inner section-shell">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A personal note</p>
+          <h2 id="letter-title">A Letter to Every Engineering Aspirant</h2>
+          <div class="editorial-copy">
+            <p class="letter-salutation">Dear Engineer-in-the-Making,</p>
+            <p>First of all, congratulations!</p>
+            <p>You are about to begin one of the most exciting journeys of your life. Engineering is not just about earning a degree; it is about becoming a problem solver, an innovator, a lifelong learner, and a responsible citizen. If you are reading this book before taking admission, you are already ahead of many others - not because you know more, but because you have chosen to prepare. I don't know your name yet, but I know a few things about you already. You've probably just finished one of the hardest exams of your life - CET, JEE, or both - and somewhere in the last few weeks, someone congratulated you, someone else asked "which branch, which college," and you smiled and answered even though you weren't entirely sure yourself. That's normal. Almost nobody your age is entirely sure. Anyone who tells you they had it all figured out at seventeen is usually remembering it more cleanly than it actually happened.</p>
+            <p>You already have something students ten years ago didn't. Google, YouTube, AI tools that can explain any concept, solve any equation, debug any code. Use this without guilt. But notice what these tools can't give you: they can't tell you which opportunities are worth your limited time, they can't make you show up when you don't feel like it, they can't build your character. That part is still entirely, unavoidably yours.</p>
+            <p>Google can answer questions. Artificial Intelligence can explain concepts. But only you can decide what kind of engineer - and what kind of person - you want to become. That decision begins today. I sincerely hope this book becomes your companion throughout your engineering journey.</p>
+            <p class="editorial-signoff">With best wishes,<br><strong>Dr. Rahul B. Adhao</strong><br>Your Mentor</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="dedication-section" aria-labelledby="dedication-title">
+        <div class="dedication-inner section-shell">
+          <p class="eyebrow"><span class="eyebrow-line"></span> With gratitude</p>
+          <h2 id="dedication-title">Dedication</h2>
+          <div class="dedication-copy">
+            <section class="dedication-item dedication-gurus" aria-labelledby="gurus-title">
+              <div class="dedication-visual dedication-visual-gurus" aria-hidden="true"></div>
+              <div class="dedication-panel">
+                <h3 id="gurus-title">To My Gurus</h3>
+                <blockquote class="kabir-verse">
+                  <p lang="hi">सब धरती कागद करूँ, लेखनी सब बनराय।<br>सात समुद्र की मसि करूँ, गुरु गुण लिखा न जाय॥</p>
+                  <cite>— Sant Kabir</cite>
+                </blockquote>
+                <p class="verse-meaning">Even if the entire earth became paper, every forest became a pen,<br class="desktop-break"> and the seven oceans turned into ink,<br class="desktop-break"> the greatness of a Guru could never be fully expressed.</p>
+                <p>The author would like to dedicate this book with heartfelt gratitude to all the Gurus whose wisdom, values, blessings, and guidance shaped not only knowledge but also character. Their teachings continue to illuminate every page of this book.</p>
+              </div>
+            </section>
+            <section class="dedication-item dedication-students" aria-labelledby="students-title">
+              <div class="dedication-visual dedication-visual-students" aria-hidden="true"></div>
+              <div class="dedication-panel">
+                <h3 id="students-title">To My Students</h3>
+                <p>The author would like to dedicate this book to every student who has been a part of this incredible teaching journey. Every question asked, every challenge faced, every success celebrated, and every dream pursued has inspired the thoughts and experiences shared in these pages.</p>
+              </div>
+            </section>
+            <section class="dedication-item dedication-ai" aria-labelledby="ai-title">
+              <div class="dedication-visual dedication-visual-ai" aria-hidden="true"></div>
+              <div class="dedication-panel">
+                <h3 id="ai-title">To Artificial Intelligence</h3>
+                <p>The author would also like to dedicate this book to the remarkable AI tools that are transforming the way knowledge is created, explored, and shared.</p>
+                <blockquote class="ai-reflection">
+                  <p>Every warrior carries a sword into battle, but victory belongs to the one who knows how to wield it with wisdom, skill, and discipline.</p>
+                  <p>Likewise, in the age of Artificial Intelligence, true success belongs not to those who merely use AI, but to those who combine it with knowledge, experience, critical thinking, ethics, and skillful prompting.</p>
+                  <p>Technology reaches its highest potential when it amplifies human wisdom rather than replacing it.</p>
+                </blockquote>
+              </div>
+            </section>
+          </div>
+          <div class="dedication-conclusion">
+            <p class="dedication-closing" aria-hidden="true">✧❖✧</p>
+            <p>With gratitude to my Gurus, affection for my students, and hope for the future of AI-assisted learning.</p>
+          </div>
+        </div>
+      </section>
       <section class="contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="section-shell contact-inner">
-          <div class="contact-copy">
-            <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Let’s stay in touch</p>
-            <h2 id="contact-title">Every good story<br>starts with <em>hello.</em></h2>
-            <p>For questions about the book, engineering preparation, student mentorship, or professional enquiries, connect with me on LinkedIn.</p>
-            <a class="contact-email" href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
-            <p class="contact-response">My LinkedIn profile is the best place to get in touch.</p>
+        <div class="contact-inner section-shell">
+          <div>
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Continue the conversation</p>
+            <h2 id="contact-title">Let’s connect.</h2>
           </div>
-          <div class="contact-card">
-            <span class="contact-card-mark">✳</span>
-            <span class="contact-card-label">A PRACTICAL FIRST STEP</span>
-            <h3>Start your engineering<br>journey with clarity.</h3>
-            <p>Explore the book and connect for guidance on college and branch selection, preparation, and student mentorship.</p>
-            <a class="button button-light" href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn profile <span aria-hidden="true">↗</span></a>
-            <span class="contact-card-foot">For engineering aspirants and parents.</span>
-          </div>
+          <a class="button button-light" href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </main>
@@ -122,10 +188,14 @@
     <footer class="site-footer">
       <div class="section-shell footer-main">
         <div class="footer-brand"><a class="wordmark" href="#home">Dr. Rahul B. Adhao<span class="wordmark-dot">.</span></a><p>Engineering Blueprint<br>Author website</p></div>
-        <div class="footer-links"><span class="footer-heading">EXPLORE</span><a href="#about">About the Author</a><a href="#books">Featured Book</a><a href="#contact">Contact</a></div>
+        <div class="footer-links"><span class="footer-heading">EXPLORE</span><a href="#home">Home</a><a href="#books">The Book</a><a href="#about">About the Author</a><a href="why-i-wrote-this-book.html">Why I Wrote This Book</a><a href="#contact">Contact</a></div>
         <div class="footer-links"><span class="footer-heading">CONNECT</span><a href="https://www.linkedin.com/in/dr-rahul-adhao-8b231754/" target="_blank" rel="noopener noreferrer" aria-label="Dr. Rahul B. Adhao on LinkedIn (opens in a new tab)">LinkedIn <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="section-shell footer-bottom"><span>© <span id="copyright-year">2025</span> Dr. Rahul B. Adhao. All rights reserved.</span><span>Engineering Blueprint Series — Ignition <i aria-hidden="true">✳</i></span><a href="#home">Back to top ↑</a></div>
     </footer>
+    <div class="book-lightbox" id="book-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged book cover" hidden>
+      <button class="book-lightbox-close" type="button" aria-label="Close enlarged book cover">✕</button>
+      <img class="book-lightbox-image" alt="">
+    </div>
   </body>
 </html>
